@@ -1,0 +1,9 @@
+void main() {
+ late String studentName;
+ studentName = "Ayesha";
+ print("Student Name: $studentName");
+ late int totalMarks;
+ totalMarks = 450;
+ print("Total Marks: $totalMarks");
+}
+
