@@ -1,0 +1,16 @@
+void main(){
+
+ var name = "Ali";
+ var age = 18;
+ var height = 1.6;
+ var isStudent = true;
+ final country = "Pakistan";
+ final year = 2025;
+ print("Name: $name");
+ print("Age: $age");
+ print("height: $height");
+ print("Student: $isStudent");
+ print("Country: $country");
+ print("Year: $year");
+}
+
