@@ -1,0 +1,20 @@
+void main(){
+ double weight = 50;
+ double height = 5.2;
+ double BMI = weight/(height\*height);
+ print("Weight is $weight");
+ print("Height is $height");
+ print("BMI is $BMI"); 
+ String recomendation;
+  if(BMI<18.5){
+   recomendation = "Eat more protein-rich foods and healty fats.";
+ }
+  else if(BMI>=18.5 \&\& BMI<30){
+   recomendation = "Maintain a balanced deit with carbs,protein and vegetables";
+ }
+ else{
+   recomendation = "Consult a nutrionist and follow a low-calorie deit.";
+ }
+ print("Deit recomendation: $recomendation");
+}
+
