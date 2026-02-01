@@ -1,0 +1,13 @@
+void main(){
+ var add = (int a, int b){
+   return a+b;
+ };
+ var mul = (int a,int b,int c){
+   return a\*b\*c;
+ };
+ int sum = add(5,6);
+ int prod = mul(3,6,9);
+ print("Sum of 5 and 6 is $sum");
+ print("Sum of 3,6 and 9 is $prod");
+}
+
