@@ -1,0 +1,14 @@
+void main() {
+ List<String> shoppingList = \["Milk", "Eggs", "Bread", "Butter"];
+ print("Shopping List: $shoppingList");
+ shoppingList.add("Cheese");
+ print("After adding Cheese: $shoppingList");
+ shoppingList.remove("Eggs");
+ print("After removing Eggs: $shoppingList");
+ print("First item in the list: ${shoppingList\[0]}");
+ print("Last item in the list: ${shoppingList\[shoppingList.length - 1]}");
+ print("List after updation:");
+ for (String item in shoppingList) {
+   print("$item");
+ }
+}
