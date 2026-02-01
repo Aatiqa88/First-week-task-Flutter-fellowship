@@ -1,0 +1,20 @@
+void main(){
+ Set<String> subject = {'Math','English','Urdu'};
+ print("Intial subjects");
+ print(subject);
+ subject.add('Computer');
+ subject.add('Math');
+ print("Subjects after adding new subjects");
+ print(subject); 
+ subject.remove('English');
+ print("Subjects after removing english");
+ print(subject); 
+ if(subject.contains('Math')){
+
+   print("Math is available.");
+ }
+ else{
+   print("Mathis not avialable");
+ }
+}
+
