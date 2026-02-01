@@ -1,0 +1,13 @@
+void main() {
+ int age = 20;        // non-nullable
+ int? marks;          // nullable
+ print("Age: $age");
+ print("Marks: ${marks ?? 'Not assigned'}");
+ marks = 80;
+ if (marks != null) {
+ print("Final Marks: $marks");
+ }
+  else{
+  print("Marks are null");
+ }
+}
