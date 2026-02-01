@@ -1,0 +1,15 @@
+void main(){
+ String name = "ALi";
+ int itemPrice = 350;
+ int paidAmount = 500;
+ double discount = 0.10;
+ int amount = (paidAmount-itemPrice);
+ double amountPaid = itemPrice-(0.10\*itemPrice);
+ print("Customer name is $name");
+ print("Item price is $itemPrice");
+ print("Amount paid is $paidAmount");
+ print("Discount is $discount");
+ print("Amount should be return is $amount");
+ print("Amount paid is $amountPaid"); 
+}
+
