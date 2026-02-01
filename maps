@@ -1,0 +1,23 @@
+void main(){
+ Map<int,String> students = {
+  1:'Ali',
+  2:'Ayesha',
+  3:'Umar'};
+ print("Initial Students:");
+ print(students);
+ students\[4] = 'Sara';
+ print("After adding a Student:");
+ print(students);
+ students\[2] = 'Ayesha Khan';
+ print("After Updating a Student:");
+ print(students);
+ students.remove(1);
+ print("After Removing a Student:");
+ print(students); 
+  if (students.containsKey(3)) {
+   print("Student with ID 3 is available.");
+ } else {
+   print("Student with ID 3 is not available.");
+ }
+}
+
