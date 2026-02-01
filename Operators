@@ -1,0 +1,40 @@
+void main(){
+ int a = 15;
+ int b = 4;
+ print("===Arithematic Operators===");
+ print("a+b = ${a+b}");
+ print("a-b = ${a-b}");
+ print("a\*b = ${a\*b}");
+ print("a/b = ${a/b}");
+ print("a%b = ${a%b}");
+
+ print("===Relational Operators===");
+ print("a>b : ${a>b}");
+ print("a<b : ${a<b}");
+ print("a>=b : ${a>=b}");
+ print("a<=b : ${a<=b}");
+ print("a==b : ${a==b}");
+ print("a!=b : ${a!=b}");
+
+ print("===Logical operators===");
+ bool x = true;
+ bool y = false;
+ print("x AND y : ${x\&\&y}");
+ print("x OR y : ${x||y}");
+ print("!x : ${!x}");
+
+ print("===Assignment Operators===");
+ double c=10;
+ print("c = $c");
+ c += 4;
+ print("c += 4 --- $c");
+ c -= 5;
+ print("c -= 5 ---$c");
+ c \*= 2;
+ print("c \*= 2 --- $c");
+ c /= 4;
+ print("c /= 4 --- $c");
+ c %= 3;
+ print("c %= 3---  $c");
+}
+
