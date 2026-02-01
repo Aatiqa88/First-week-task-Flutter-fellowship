@@ -1,0 +1,11 @@
+void main() {
+ String? name;
+ String userName = name ?? "Guest";
+ print("User Name: $userName");
+ int? marks;
+ marks ??= 50; 
+ print("Marks: $marks");
+ List<int>? numbers;
+ print("List length: ${numbers?.length}");
+
+}
