@@ -1,0 +1,15 @@
+String greet(String name)=>"Hello $name! Welcome here.";
+int square(int a)=>a\*a;
+double rectangleArea(double length, double width)=>length\*width;
+void main(){
+ print("Greet functions");
+ print(greet("ALi"));
+ print(greet("Umar"));
+ print("Square functions");
+ print("Square of 5 is ${square(5)}");
+ print("Square of 10 is ${square(10)}");
+ print("Rectangle Area functions");
+ print("Area of rectangle 5\*6 is ${rectangleArea(5,6)}");
+ print("Area of rectangle 9.5\*3.2 is ${rectangleArea(9.5,3.2)}");
+}
+
