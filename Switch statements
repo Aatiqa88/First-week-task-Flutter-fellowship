@@ -1,0 +1,33 @@
+void main() {
+ int option = 2;
+ double balance = 5000;
+ print("Your current balance: Rs $balance");
+ print("Selected Option: $option");
+  switch (option) {
+   case 1:
+    print("Option 1: Check Balance");
+    print("Your balance is: Rs $balance");
+    break;
+  case 2:
+   print("Option 2: Withdraw Cash");
+   double withdrawAmount = 1000;
+   balance -= withdrawAmount;
+   print("You withdrew Rs $withdrawAmount");
+   print("Remaining balance: Rs $balance");
+    break;
+  case 3:
+   print("Option 3: Deposit Cash");
+   double depositAmount = 2000;
+   balance += depositAmount;
+   print("You deposited Rs $depositAmount");
+   print("Updated balance: Rs $balance");
+   break;
+  case 4:
+   print("Option 4: Exit");
+   print("Thank you for using MyBank ATM!");
+    break;
+  default:
+   print("Invalid option! Please select 1-4.");
+ }
+}
+
