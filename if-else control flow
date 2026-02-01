@@ -1,0 +1,28 @@
+void main() {
+ String city = "Karachi";
+ String weather = "rainy";
+ int temperature = 28;
+ print("Travel guide!");
+ print("City: $city");
+ print("Weather: $weather");
+ print("Temperature: $temperature");
+  if (weather == "sunny" \&\& temperature > 30) {
+   print("It's hot and sunny. Wear light clothes and sunglasses.");
+ } 
+ else if (weather == "sunny" \&\& temperature <= 30) {
+   print("It's sunny but comfortable. Enjoy outdoor activities.");
+ } 
+ else if (weather == "rainy") {
+   print("It's rainy.");
+ } 
+ else if (weather == "cloudy") {
+  print("It's cloudy. Wear jacket!");
+ } 
+ else if (weather == "snowy") {
+   print("It's snowy. Wear warm clothes and boots.");
+ } 
+ else {
+ print("Weather information is not available.");
+ }
+}
+
