@@ -1,0 +1,28 @@
+void main(){
+ List<int> numbers = \[10, 20, 30, 40];
+ print("Original List:");
+ print(numbers);
+ numbers.add(50);            
+ numbers.remove(20);         
+ numbers.insert(1, 15);     
+ print("After List Methods:");
+ print(numbers);
+ Set<String> cities = {'Lahore', 'Karachi', 'Islamabad'};
+ cities.add('Peshawar');    
+ cities.remove('Karachi');   
+ print("Set after Methods:");
+ print(cities); 
+ Map<int, String> courses = {
+   101: 'Flutter',
+   102: 'Dart'
+ };
+ courses\[103] = 'Java';   
+ courses.remove(101);        
+ print("Map after Methods:");
+ print(courses);
+ print("Common Methods:");
+ print("List is empty? ${numbers.isEmpty}");
+ print("Set length: ${cities.length}");
+ print("Map keys: ${courses.keys}");
+}
+
